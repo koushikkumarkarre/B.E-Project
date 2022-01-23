@@ -1,0 +1,144 @@
+body {
+color:black;
+margin:0;
+font-family:Copperplate Gothic Light, sans-serif;
+}
+.banner {
+padding-left:4%;
+overflow:auto;
+}
+.login {
+width:70%;
+margin:40px auto;
+}
+.login h2 {
+	text-align:center;
+	padding-bottom:7px;	
+	border-bottom:2px solid black;
+}
+.register {
+width:70%;
+margin:40px auto;
+}
+.register h2 {
+	text-align:center;
+	padding-bottom:7px;	
+	border-bottom:2px solid black;
+}
+button {
+    background-color: black; /* Green */
+    border:2px solid black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 15px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+input {
+	width:45%;
+	padding: 12px 20px;
+	margin:10px;
+	box-sizing: border-box;
+}
+input:focus, textarea:focus {
+	outline:none;
+	border: 2px solid black;
+}
+.logged_active {
+float:right;
+margin-top:10px;
+padding:10px;
+font-size:20px;
+}
+.content-error {
+	font-size: 20px;
+	padding: 10px;
+	color:red;
+}
+.logoname {
+	position:relative;
+	top:20px;
+	left:30%;
+	width:40%;
+	color:white;
+	padding-left:13px;
+	padding-right:13px;
+}
+a {
+	text-decoration:none;
+	color:red;
+}
+.mainHolder {
+	overflow:auto;
+	margin-top:13%;
+}
+.mainHolder h3 {
+	font-size:35px;
+	font-family:Copperplate Gothic Light, sans-serif;
+	float:left;
+	width:15%;
+	padding:10px;
+	border: 3px solid white;
+	text-align:center;
+}
+.mainHolder h3:hover {
+	border:0;
+	border-bottom:3px solid white;
+}
+#nav {
+	background-color: #222;
+}
+#nav-wrapper {
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+}
+#nav a {
+	color: white;
+}
+#nav ul {
+	list-style-type:none;
+	padding : 0;
+	margin: 0;
+	position: relative;
+}
+#nav ul li {
+	display:inline-block;
+}
+#nav ul li:hover {
+	background-color: #333;
+}
+#nav ul li a,visited{
+	color: #ccc;
+	display:block;
+	padding:15px;
+}
+#nav ul li a:hover {
+	color:white;
+}
+#nav ul li:hover ul {
+	display:block;
+}
+#nav ul ul {
+	display:none;
+	position:absolute;
+	background-color:#333;
+}
+#nav ul ul li {
+	display:block;
+}
+input[type="radio"],input[type="file"]{
+	width:auto;
+	padding:0;
+}
+.container  {
+	width:70%;
+	margin-left:70px;
+}
