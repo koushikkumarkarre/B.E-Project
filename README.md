@@ -1,4 +1,6 @@
 Engineering Final Year Project
 
-Developed front-end for an e-commerce business plan using various Web Technologies such as HTML, CSS, PHP and Javascript
-Maintained MySQL as a database and Tomcat as a server
+• This project’s objective was to provide files and text, be it storing on disk or sending over the Internet.
+• Designed & Implemented a tool to provide Information security using Cryptology Methodologies.
+• I used IMAGE STEGANOGRAPHY which used higher end bits to store data unlike the lower end bits which are commonly used.
+• To make this tool more handy for the end user, I included TEXT ENCRYPTION/DECRYPTION using the algorithms DATA ENCRYPTION STANDARD(DES), ADVANCED ENCRYPTION STANDARD(AES) & BLOWFISH.
